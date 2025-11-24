@@ -1,0 +1,101 @@
+[colors.bright]
+black = "#2A2A37"
+blue = "#7E9CD8"
+cyan = "#76946A"
+green = "#98BB6C"
+magenta = "#957FB8"
+red = "#C34043"
+white = "#DCD7BA"
+yellow = "#C0A36E"
+
+[colors.cursor]
+cursor = "#DCD7BA"
+text = "#1F1F28"
+
+[colors.dim]
+black = "#1F1F28"
+blue = "#66899E"
+cyan = "#6A7D5A"
+green = "#88926F"
+magenta = "#6E6A86"
+red = "#9B4B45"
+white = "#727169"
+yellow = "#9F8040"
+
+[colors.normal]
+black = "#1F1F28"
+blue = "#7E9CD8"
+cyan = "#76946A"
+green = "#98BB6C"
+magenta = "#957FB8"
+red = "#C34043"
+white = "#DCD7BA"
+yellow = "#C0A36E"
+
+[colors.primary]
+background = "#1F1F28"
+foreground = "#DCD7BA"
+
+[colors.vi_mode_cursor]
+cursor = "CellForeground"
+text = "CellBackground"
+
+[font]
+size = 12
+
+[font.bold]
+family = "UbuntuMono Nerd Font"
+style = "Bold"
+
+[font.bold_italic]
+family = "UbuntuMono Nerd Font"
+style = "Bold Italic"
+
+[font.italic]
+family = "UbuntuMono Nerd Font"
+style = "Italic"
+
+[font.normal]
+family = "UbuntuMono Nerd Font"
+style = "Regular"
+
+[font.offset]
+x = 0
+y = 0
+
+[[keyboard.bindings]]
+action = "SpawnNewInstance"
+key = "N"
+mods = "Control|Shift"
+
+[scrolling]
+history = 8000
+multiplier = 4
+
+[shell]
+program = "/bin/zsh"
+
+[window]
+decorations = "full"
+option_as_alt="Both"
+decorations_theme_variant = "Dark"
+dynamic_padding = false
+dynamic_title = true
+opacity = 1 
+startup_mode = "Windowed"
+title = "Kanagawa Terminal"
+
+[window.dimensions]
+columns = 264
+lines = 64
+
+[window.padding]
+x = 10
+y = 10
+
+[window.position]
+x = 0
+y = 0
+
+[env]
+term = 'xterm-256color'
